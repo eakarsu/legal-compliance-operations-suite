@@ -10,6 +10,21 @@ export type SourceDashboardAction = {
 
 export const sourceDashboardActions: SourceDashboardAction[] = [
   {
+    "id": "court-reporting-transcription",
+    "label": "Court Reporting Transcription",
+    "description": "Open Court Reporting Transcription workflows elevated from AICourtReportingLegalTranscription.",
+    "href": "/legal-transcripts",
+    "sourceProjects": [
+      "AICourtReportingLegalTranscription"
+    ],
+    "examples": [
+      "Legal Transcripts",
+      "Transcript Issue Review",
+      "Deposition Summary"
+    ],
+    "count": 1
+  },
+  {
     "id": "ai-assistant",
     "label": "AI Assistant",
     "description": "Run source-derived AI assistant workflows and prompts.",

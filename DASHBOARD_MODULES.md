@@ -2,6 +2,8 @@
 
 The combined dashboard includes:
 
+- Court Reporting Transcription operating view
+
 - Matter intake and deadline risk
 - Contract review and clause risk
 - Legal holds and eDiscovery batches

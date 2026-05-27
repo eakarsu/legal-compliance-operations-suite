@@ -7,6 +7,9 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/deposition-summary`
+- `/transcript-issue-review`
+- `/legal-transcripts`
 - `/matters`
 - `/contracts`
 - `/clause-review`

@@ -1,5 +1,19 @@
 export const sourceProjectTools = [
   {
+    "id": "court-reporting-transcription-copilot",
+    "title": "Court Reporting Transcription Copilot",
+    "category": "Court Reporting Transcription",
+    "description": "Focused Court Reporting Transcription AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Court Reporting Transcription context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Court Reporting Transcription context",
+    "outputLabel": "Court Reporting Transcription AI response",
+    "signals": [
+      "Legal Transcripts",
+      "Transcript Issue Review",
+      "Deposition Summary"
+    ]
+  },
+  {
     "id": "ai-contract-lifecycle-manager-source-workflow",
     "title": "AI Contract Lifecycle Manager Source Workflow",
     "category": "Source Project Coverage",
