@@ -2,6 +2,8 @@
 
 The combined dashboard includes:
 
+- Court Transcription Deep Workflows operating view
+
 - Court Reporting Transcription operating view
 
 - Matter intake and deadline risk

@@ -1,5 +1,20 @@
 export const sourceProjectTools = [
   {
+    "id": "court-transcription-deep-workflows-copilot",
+    "title": "Court Transcription Deep Workflows Copilot",
+    "category": "Court Transcription Deep Workflows",
+    "description": "Deep source-derived AI tool for Court Transcription Deep Workflows inside the current merged suite.",
+    "defaultPrompt": "Review the Court Transcription Deep Workflows context. Return a professional summary, evidence table, risks, missing information, recommended actions, owner assignments, and audit-ready output.",
+    "inputLabel": "Court Transcription Deep Workflows context",
+    "outputLabel": "Court Transcription Deep Workflows AI response",
+    "signals": [
+      "Speaker Diarization Review",
+      "Exhibit Reference Index",
+      "Errata Correction Queue",
+      "Transcript Certification"
+    ]
+  },
+  {
     "id": "court-reporting-transcription-copilot",
     "title": "Court Reporting Transcription Copilot",
     "category": "Court Reporting Transcription",

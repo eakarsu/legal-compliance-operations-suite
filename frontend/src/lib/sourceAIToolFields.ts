@@ -10,6 +10,59 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "court-transcription-deep-workflows-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Court Transcription Deep Workflows workflow and produce a decision-ready output.",
+      "placeholder": "Describe the review goal, business context, or decision needed",
+      "options": [],
+      "required": true,
+      "source": "AICourtReportingLegalTranscription"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste notes, records, documents, transcript text, metrics, or case details for Court Transcription Deep Workflows.",
+      "placeholder": "Paste the source context to analyze",
+      "options": [],
+      "required": true,
+      "source": "AICourtReportingLegalTranscription"
+    },
+    {
+      "name": "workflow_focus",
+      "label": "Workflow Focus",
+      "type": "select",
+      "defaultValue": "Speaker Diarization Review",
+      "placeholder": "Select the workflow to optimize",
+      "options": [
+        "Speaker Diarization Review",
+        "Exhibit Reference Index",
+        "Errata Correction Queue",
+        "Transcript Certification"
+      ],
+      "required": true,
+      "source": "AICourtReportingLegalTranscription"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Professional action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Professional action plan",
+        "Evidence table",
+        "Risk review",
+        "Checklist",
+        "Executive summary"
+      ],
+      "required": true,
+      "source": "AICourtReportingLegalTranscription"
+    }
+  ],
   "court-reporting-transcription-copilot": [
     {
       "name": "objective",

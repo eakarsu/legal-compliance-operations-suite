@@ -7,6 +7,10 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/transcript-certification`
+- `/errata-correction-queue`
+- `/exhibit-reference-index`
+- `/speaker-diarization-review`
 - `/deposition-summary`
 - `/transcript-issue-review`
 - `/legal-transcripts`

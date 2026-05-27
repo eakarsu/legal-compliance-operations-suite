@@ -10,6 +10,22 @@ export type SourceDashboardAction = {
 
 export const sourceDashboardActions: SourceDashboardAction[] = [
   {
+    "id": "court-transcription-deep-workflows",
+    "label": "Court Transcription Deep Workflows",
+    "description": "Open deeper Court Transcription Deep Workflows workflows elevated from AICourtReportingLegalTranscription.",
+    "href": "/speaker-diarization-review",
+    "sourceProjects": [
+      "AICourtReportingLegalTranscription"
+    ],
+    "examples": [
+      "Speaker Diarization Review",
+      "Exhibit Reference Index",
+      "Errata Correction Queue",
+      "Transcript Certification"
+    ],
+    "count": 1
+  },
+  {
     "id": "court-reporting-transcription",
     "label": "Court Reporting Transcription",
     "description": "Open Court Reporting Transcription workflows elevated from AICourtReportingLegalTranscription.",
